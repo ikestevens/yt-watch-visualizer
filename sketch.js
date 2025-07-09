@@ -8,6 +8,10 @@ let isMobile = false;
 let tapX = 0;
 let tapY = 0;
 
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+  }
+
 function preload() {
   watchData = loadJSON("condensed_watch_data.json");
 }
