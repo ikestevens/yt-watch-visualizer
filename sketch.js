@@ -35,13 +35,19 @@ function mouseMoved() {
 }
 
 function touchStarted() {
-  if (isMobile) {
-    tapX = mouseX;
-    tapY = mouseY;
-    isHovering = true;
+    if (isMobile) {
+      tapX = mouseX;
+      isHovering = true;
+    }
+    return false;
   }
-  return false;
-}
+  
+  function touchMoved() {
+    if (isMobile) {
+      tapX = mouseX;
+    }
+    return false;
+  }
 
 function drawLine() {
   let repetitions = isMobile ? 25 : 30;
