@@ -1,2 +1,3 @@
-# yt-watch-visualizer
-count of how many youtube videos I've watched over the past week, visualized into artwork
+# Youtube Watch Visualizer
+
+A simple artwork to display the number of youtube videos I've watched in the past 6 months of the data that YouTube gives me (via Google Takeout).
